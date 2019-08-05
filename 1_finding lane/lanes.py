@@ -9,7 +9,7 @@ def display_lines(image, lines):
     if lines:
         for line in lines:
             for x1, y1, x2, y2 in line:
-                cv2.line(line_image, (x1,y1), (x2,y2), (255,0,0), 10)
+                cv2.line(line_image, (x1, y1), (x2, y2), (255, 0, 0), 10)
     return line_image
 
 def make_points(image, line):
@@ -26,7 +26,7 @@ def average_slope_intercept(image, lines):
         return None
     for line in lines:
         for x1, y1, x2, y2 in line:
-            fit = np.polyfit((x1,x2), (y1,y2), 1)
+            fit = np.polyfit((x1, x2), (y1, y2), 1)
             slope = fit[0]
             intercept = fit[1]
             if slope < 0:   # y is reversed in image
@@ -46,7 +46,7 @@ def region_of_interest(canny):
     width = canny.shape[1]
     mask = np.zeros_like(canny)
 
-    triangle = np.array([[(200, height), (550, 250), (1100, height),]], np.int32)
+    triangle = np.array([[(200, height), (550, 250), (1100, height), ]], np.int32)
 
     cv2.fillPoly(mask, triangle, 255)
     masked_image = cv2.bitwise_and(canny, mask)
