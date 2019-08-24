@@ -7,3 +7,10 @@ Use Canny edge detection & Hough transform to find the lanes in a video.
 Implement the supervised learning by gradient descent on two categories of groups.
 
 ------------------------
+3. Keras: <br />
+Learn how to use Keras to train models.
+
+------------------------
+4. Deep Neural Network: <br />
+Train a deep neural network for binary classification problem produced by scikit-learn.
+
