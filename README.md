@@ -13,6 +13,6 @@ Learn how to use Keras to train models.
 ------------------------
 4. Deep Neural Network: <br />
 Train a deep neural network for binary classification problem produced by scikit-learn.  <br />
-(activation function: sigmoid, loss function: cross entropy)
+(activation function: sigmoid; loss function: cross entropy)
 
 
