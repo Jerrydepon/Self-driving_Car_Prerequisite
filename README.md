@@ -20,4 +20,11 @@ Train a deep neural network for binary classification problem produced by scikit
 Train a deep neural network for multi classification problem produced by scikit-learn. Use one hot encode to encode categorical integer features.  <br />
 (activation function: softmax)
 
+------------------------
+6. MNIST: <br />
+Perform training, validation, testing on MNIST for digit classification.
+
+------------------------
+7. Convolution Neural Network: <br />
+Apply CNN(Max-pooling, dropout, fully-connecting layer) on MNIST.
 
