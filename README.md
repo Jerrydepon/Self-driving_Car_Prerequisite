@@ -28,3 +28,8 @@ Perform training, validation, testing on MNIST for digit classification.
 7. Convolution Neural Network: <br />
 Apply CNN(Max-pooling, dropout, fully-connecting layer) on MNIST.
 
+------------------------
+8. Classifying Road Symbols: <br />
+Preprocess (grayscale + equalizeHist) the road sysmbols to stretch out the intensity range.
+& Data augmentation to add more training set.
+& Neural network tuning to improve the accuracy.
