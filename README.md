@@ -30,6 +30,6 @@ Apply CNN(Max-pooling, dropout, fully-connecting layer) on MNIST.
 
 ------------------------
 8. Classifying Road Symbols: <br />
-Preprocess (grayscale + equalizeHist) the road sysmbols to stretch out the intensity range.
-& Data augmentation to add more training set.
+Preprocess (grayscale + equalizeHist) the road sysmbols to stretch out the intensity range. <br />
+& Data augmentation to add more training set. <br />
 & Neural network tuning to improve the accuracy.
