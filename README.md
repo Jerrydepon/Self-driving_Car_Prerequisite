@@ -33,3 +33,7 @@ Apply CNN(Max-pooling, dropout, fully-connecting layer) on MNIST.
 Preprocess (grayscale + equalizeHist) the road sysmbols to stretch out the intensity range. <br />
 & Data augmentation to add more training set. <br />
 & Neural network tuning to improve the accuracy.
+
+------------------------
+9. Polynomial Regression: <br />
+The relationship between the independent variable x and the dependent variable y is modelled as an nth degree polynomial in x.
